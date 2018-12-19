@@ -59,6 +59,7 @@ export default class Home extends Component {
       <div>
         <div className={styles.container} data-tid="container">
           <div className={styles.subcont}>
+          <p style={{fontSize: 24}}>START&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STOP</p>
             <span
               className={styles['btn-green']}
               onClick={() => this.turnOn()}
@@ -74,6 +75,8 @@ export default class Home extends Component {
               onClick={() => this.downTemp()}
             />
             <span className={styles['btn-red']} onClick={() => this.upTemp()} />
+            <br />
+            <p style={{fontSize: 34}}>-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+</p>
           </div>
           <div className={styles.subcont2}>
             <img
